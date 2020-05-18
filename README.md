@@ -1,4 +1,4 @@
-##Trump Or Trudeau?
+# Trump Or Trudeau?
 
 This is a simple project that based on the tweet-datasets of Donald Trump and Justin Trudeau predicts the real owner or author of the tweet.
 
