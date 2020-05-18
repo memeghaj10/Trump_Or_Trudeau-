@@ -1,4 +1,4 @@
-#Trump Or Trudeau?
+##Trump Or Trudeau?
 
 This is a simple project that based on the tweet-datasets of Donald Trump and Justin Trudeau predicts the real owner or author of the tweet.
 
@@ -29,6 +29,6 @@ We see that the TF-IDF model performs better than the count-based approach
 
  A better evaluation can be made if we look at the confusion matrix, which shows the number correct and incorrect classifications based on each class. We can use the metrics, True Positives, False Positives, False Negatives, and True Negatives, to determine how well the model performed on a given class. 
 
- The `LinearSVC` model is even better than the Multinomial Bayesian one.Via the confusion matrix we can see that, although there is still some confusion where Trudeau's tweets are classified as Trump's, the False Positive rate is better than the previous model.
+ The `LinearSVC` model is even better than the Multinomial Bayesian one. Via the `confusion matrix` we can see that, although there is still some confusion where Trudeau's tweets are classified as Trump's, the False Positive rate is better than the previous model.
 
- Using the LinearSVC Classifier with two classes (Trump and Trudeau) we can sort the features (tokens), by their weight and see the most important tokens for both Trump and Trudeau.
+ Using the `LinearSVC Classifier` with two classes (Trump and Trudeau) we can sort the features (tokens), by their weight and see the most important tokens for both Trump and Trudeau.
